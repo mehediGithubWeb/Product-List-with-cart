@@ -1,0 +1,97 @@
+
+body{
+    height:100vh;
+    width: 1440px;
+    background-color: rgb(236, 227, 227);
+
+}
+
+h1{
+    font-size: 35px;
+}
+name1{
+    font-size: 16px;
+    font-weight: 50;
+    color: rgb(171, 139, 139)
+    
+}
+name{
+    font-size: 18px;
+    font-weight: 700;
+    
+}
+price{
+    font-weight: 800;
+    color: rgb(231, 93, 43);
+}
+.productList{
+    float: left;
+    display:flex;
+    
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    width:700px;
+    gap:20px;
+    
+}
+
+.cart{
+    float: right;
+    border-radius: 2px;
+    color: rgb(247, 95, 0);
+    
+}
+.desserts{
+    height: 200px;
+    width: 200px;
+    border-radius: 4%;
+    margin-bottom: 20px;
+}
+
+.addCart{
+    color:rgb(199, 100, 58);
+    background-color:white;
+    border: 1.2px black;
+    border-radius: 15px;
+    border-style: solid;
+    
+    padding:12px;
+    position: relative;
+    bottom: 98px;
+    left: 35px;
+    margin: 5px;
+
+}
+name1{
+    font-size: 0.9rem;
+}
+.border{
+    border: 10px;
+    color: black;
+}
+
+
+
+.cart{
+    background-color: white;
+    width: 400px;
+    padding: 20px;
+
+}
+.container1{
+    float: left;
+}
+.container2{
+    float: right;
+    margin-top: 35px;
+}
+Container{
+    padding: 70px;
+}
+.pressed{
+    background-color:hsl(14, 86%, 42%);
+  }
+
+.newTexxt{
+    color: orangered;
+}
